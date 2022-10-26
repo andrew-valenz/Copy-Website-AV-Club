@@ -30,6 +30,37 @@ header .logo {
     height: 100%;
 }
 
+header {
+    background: white;
+    display: grid;
+    grid-template-: ;
+}
 main {
     padding: 20px;
+}
+
+.flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row |;
+}
+
+.item {
+    order: 5;
+    flex-grow: 1;
+}
+
+.categories {
+}
+
+.nav {
+    background-color: white;
+    grid-template-columns: ;
+    height: 65px;
 }
