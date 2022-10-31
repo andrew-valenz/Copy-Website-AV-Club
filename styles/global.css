@@ -45,9 +45,34 @@ main {
     font-size: 30px;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-spacing {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    width: 25%;
+}
+
 .container {
     display: flex;
     flex-direction: row;
+}
+
+.grid-box-large {
+    min-width: 50%;
+    min-height: 500px;
+    border: 1px solid black;
+}
+
+.grid-box {
+    min-width: 25%;
+    min-height: 250px;
+    border: 1px solid black;
 }
 
 .item {
@@ -58,4 +83,33 @@ main {
 .nav {
     background-color: white;
     height: 65px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row div {
+    width: 50%;
+}
+
+.noMargin {
+    margin: 0px;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: blue;
 }
