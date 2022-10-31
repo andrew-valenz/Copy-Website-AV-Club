@@ -51,7 +51,6 @@ main {
 
 .flex-spacing {
     align-items: center;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -84,4 +83,33 @@ main {
 .nav {
     background-color: white;
     height: 65px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row div {
+    width: 50%;
+}
+
+.noMargin {
+    margin: 0px;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: blue;
 }
